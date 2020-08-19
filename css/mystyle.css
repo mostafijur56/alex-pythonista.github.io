@@ -19,3 +19,18 @@ body{
 p{
     text-align: justify;
 }
+.education-container{
+    background: #00AD55;
+}
+.greentype-color{
+    color: #F1F3F4;
+}
+.circle{
+    background-color: #F1F3F4;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.card{
+    background-color: #F1F3F4;
+}
