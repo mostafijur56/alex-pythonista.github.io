@@ -11,7 +11,10 @@ body{
 }
 
 .navbar-container{
+    top: 0%;
     background-color: #283E4A;
+    position: sticky;
+    z-index: 2;
 }
 .about-container{
     background-color: #F1F3F4;
@@ -20,7 +23,7 @@ p{
     text-align: justify;
 }
 .education-container{
-    background: #00AD55;
+    background: #96F4F7;
 }
 .greentype-color{
     color: #F1F3F4;
@@ -36,4 +39,27 @@ p{
 }
 .gallery-container{
     background-color: #2BB3DD;
+}
+
+.inner-form{
+    background-color: #F0FFFF;
+}
+.btn-btnprimay:hover{
+    color: black;
+}
+.footer{
+    background-color: lightgray;
+}
+.icon-circle{
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    display: inline-block;
+    background-color: white;
+    font-size: 40px;
+    text-align: center;
+    color: lightgray;
+}
+.icon-circle:hover{
+    background-color: black;
 }
